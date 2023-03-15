@@ -1,0 +1,82 @@
+body {
+    background-color: #2E2E2E;
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+.Container{
+    margin: auto;
+    background-color: #171717;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.Container > img{
+    width: 300px;
+    height: 320px;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top:20px;   
+}
+.FullName{
+    text-align: center;
+    font-size: 21px;
+    color: white;
+    font-weight: 500rem;
+}
+
+.Position{
+    color: orange;
+    font-size: 14px;
+    text-align: center;
+    margin-top: -20px
+}
+
+.Company{
+    color:white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.Email{
+    width: 250px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 7px;
+    color: white;
+    background-color: #00308F;
+    border: none;
+}
+
+.MCTitle{
+    color: white;
+    font-size: 18px;
+}
+
+.MCDescription{
+    color: white;
+    font-size: 13px;
+}
+
+.Container2{
+    margin-top: 40px;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Footer{
+    color:white;
+    background-color: grey;
+    font-size: 10px;
+    text-align: center;
+}
